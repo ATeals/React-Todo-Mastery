@@ -20,6 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    "types": ["jest"],
+    "esModuleInterop": true,
+
     "paths": {
       "@/*": ["./src/*"],
       "common/*": ["./src/feature/common/*"]
